@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "*.sqlbook": "sql",
+    "*.ndjson": "jsonl",
+    "*.dbclient-js": "javascript",
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "vector": "cpp",
+    "queue": "cpp",
+    "stack": "cpp",
+    "unordered_set": "cpp",
+    "iostream": "cpp",
+    "string": "cpp"
+  }
+}
