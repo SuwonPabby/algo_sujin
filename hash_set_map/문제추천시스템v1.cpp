@@ -35,8 +35,8 @@ int main() {
   int N;
   unordered_set<string> solvedSet;
   unordered_map<int, int> P2L;
-  priority_queue<pair<int, int>, vector<pair<int, int>>, MinCompare> minHeap;
-  priority_queue<pair<int, int>, vector<pair<int, int>>, MaxCompare> maxHeap;
+  priority_queue<pair<int, int>> minHeap;
+  priority_queue<pair<int, int>> maxHeap;
 
   cin >> N;
 

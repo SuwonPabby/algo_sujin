@@ -1,8 +1,25 @@
 #include <iostream>
+#include <set>
 using namespace std;
 
 int main() {
-  int a, b;
-  cin >> a >> b;
-  cout << a;
+  set<int> s;
+  s.insert(1);
+  for (auto a : s) {
+    cout << a << "\n";
+  }
+  cout << "-----" << endl;
+  s.insert(3);
+  for (auto a : s) {
+    cout << a << "\n";
+  }
+  cout << "-----" << endl;
+  s.insert(5);
+  s.insert(10);
+  for (auto a : s) {
+    cout << a << "\n";
+  }
+  cout << "-----" << endl;
+
+  cout << *prev(s.end());
 }
