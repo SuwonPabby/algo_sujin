@@ -12,6 +12,7 @@
     "stack": "cpp",
     "unordered_set": "cpp",
     "iostream": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "set": "cpp"
   }
 }
