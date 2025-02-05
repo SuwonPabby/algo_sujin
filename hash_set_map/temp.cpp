@@ -1,25 +1,15 @@
 #include <iostream>
 #include <set>
+#include <vector>
 using namespace std;
 
-int main() {
-  set<int> s;
-  s.insert(1);
-  for (auto a : s) {
-    cout << a << "\n";
-  }
-  cout << "-----" << endl;
-  s.insert(3);
-  for (auto a : s) {
-    cout << a << "\n";
-  }
-  cout << "-----" << endl;
-  s.insert(5);
-  s.insert(10);
-  for (auto a : s) {
-    cout << a << "\n";
-  }
-  cout << "-----" << endl;
+void func(vector<vector<int>> &a) {
+  cout << a[0][0] << endl;
+  a[0][0] = 1;
+}
 
-  cout << *prev(s.end());
+int main() {
+  vector<vector<int>> a(3, vector<int>(3, 0));
+  func(a);
+  cout << a[0][0] << endl;
 }
